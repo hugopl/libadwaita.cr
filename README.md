@@ -15,23 +15,16 @@
     <img src="https://i.imgur.com/H6a5Git.png" alt="screenshot of the an example libadwaita.cr app" width="512" />
 </p>
 
-#
-
 ## Notes
 
 - Bindings are being generated using [gi-crystal](https://github.com/hugopl/gi-crystal).
 - It includes everything [gtk4.cr](https://github.com/hugopl/gtk4.cr) does plus libadwaita.
-- Docs can be found on the website listed on the sidebar.
-
-#
 
 ## Dependencies
 
 - ArchLinux: `pacman -S gtk4 gobject-introspection libadwaita`
 
 Other distros will probably require you to manually build libadwaita for now.
-
-#
 
 ## Installation
 
@@ -46,13 +39,9 @@ Other distros will probably require you to manually build libadwaita for now.
 2. Run `shards install`
 3. Run `./bin/gi-crystal` to generate the bindings
 
-#
-
 ## Usage
 
 Follow the instructions over at [gtk4.cr](https://github.com/hugopl/gtk4.cr) and [gi-crystal](https://github.com/hugopl/gi-crystal) as well as the [examples/](./examples/) folder
-
-#
 
 ## Contributing
 
